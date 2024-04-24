@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import bearLogo from "@/public/black-bear.png";
+// import bearLogo from "@/public/black-bear.png";
+import naponLogo from "@/public/napon-logo.png";
 
 const NotFound = () => {
   return (
@@ -18,11 +19,11 @@ const NotFound = () => {
       </p>
       <div className=" mt-5 relative max-w-[200px] w-full z-10 h-[180px]">
         <Image
-          src={bearLogo}
+          src={naponLogo}
           alt="Company Logo"
           fill
           sizes="(max-width:200px) 100vw"
-          className="object-cover z-10"
+          className="object-contain z-10"
         />
       </div>
     </section>

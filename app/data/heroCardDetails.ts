@@ -7,8 +7,8 @@ export const cardDetails = [
   },
   {
     id: 2,
-    title: "Zašto Superheat",
-    path: "/zasto-superheat",
+    title: "Zašto Napon",
+    path: "/zasto-napon",
     img: "/assets/cardSection/why-superheat.jpg",
   },
   {

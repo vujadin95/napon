@@ -12,7 +12,7 @@ const NasaResenja = () => {
         <div className="max-w-[1240px] mx-auto px-3 md:px-5 relative">
           <div className="max-w-xl ml-auto min-h-[600px] flex flex-col justify-center gap-4 text-lightColor">
             <p className="text-2xl text-right">
-              <span className="text-red-500 font-bold">SUPERHEAT</span> je
+              <span className="text-red-500 font-bold">NAPON</span> je
               orjentisan ka inovativnim aplikacijama koje donose benefite u
               efikasnosti i kvalitetu rada rashladnih sistema i koje Vas{" "}
               <span className="text-red-500 font-bold">

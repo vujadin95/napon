@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logoBlack from "@/public/superheat-black.png";
-import logoLight from "@/public/superheat-white.png";
+import naponLogo from "@/public/napon-logo.png";
 
 const Logo = () => {
   return (
@@ -10,18 +9,11 @@ const Logo = () => {
       href={"/"}
     >
       <Image
-        src={logoBlack}
-        alt="Superheat Logo"
+        src={naponLogo}
+        alt="Napon Company Logo"
         fill
         sizes="(max-width: 250px) 100vw"
-        className="dark:hidden object-contain"
-      />
-      <Image
-        src={logoLight}
-        alt="Superheat Logo"
-        fill
-        sizes="(max-width: 250px) 100vw"
-        className="hidden dark:block object-contain"
+        className=" object-contain dark:invert"
       />
     </Link>
   );

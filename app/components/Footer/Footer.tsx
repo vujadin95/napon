@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="mt-auto border-t-[1px] border-gray-300 py-4">
         <p className="text-center">
           <span>&copy; </span>
-          <span className="text-sky-500">{copyrightYear()} SUPERHEAT</span> All
+          <span className="text-sky-500">{copyrightYear()} NAPON</span> All
           right reserved!
         </p>
       </div>

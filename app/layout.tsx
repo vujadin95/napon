@@ -12,7 +12,7 @@ const poppins = Poppins({
 const description =
   "Optimizujemo rad i produžavamo životni vek vaše rashladne opreme";
 export const metadata: Metadata = {
-  title: "Superheat",
+  title: "NAPON",
   description: description,
 };
 
